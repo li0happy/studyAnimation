@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        tools:context=".animatorset.PathAnimatorActivity">
+
+        <ImageButton
+            android:id="@+id/btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom|right"
+            android:background="@drawable/circle" />
+
+        <ImageButton
+            android:id="@+id/btn1"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="bottom|right"
+            android:background="@drawable/cirle_green"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/btn2"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="bottom|right"
+            android:background="@drawable/cirle_green"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/btn3"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="bottom|right"
+            android:background="@drawable/cirle_green"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/btn4"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="bottom|right"
+            android:background="@drawable/cirle_green"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/btn5"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="bottom|right"
+            android:background="@drawable/cirle_green"
+            android:visibility="gone" />
+
+    </FrameLayout>
+</layout>

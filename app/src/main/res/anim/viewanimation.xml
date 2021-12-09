@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration = "300"
+    android:fillBefore = "true"
+    android:repeatCount = "infinite">
+    <!--几种类型标签的一些公用的属性
+         duration:用于设置完成一次动画的持续时间，单位ms
+         fillAfter:如果设置为true，则控件动画结束后，将保持动画结束时的状态
+         filBefore:如果设置为true，则控件动画结束后，将保持动画开始钱的状态，默认是true
+         fillEnable:在动画结束后，将还原到最初始状态
+         repeatCount:用于指定动画的重复次数
+         repeatMode:设定重复的类型，有reverse和restart两个值
+         interpolator：插值器，指定动画效果-->
+    <!-- scale标签，同于缩放动画，可以实现动态调整控件尺寸的效果 -->
+    <scale
+        android:fromXScale="2.0"
+        android:toXScale="1.0"
+        android:fromYScale="1.5"
+        android:toYScale="1.0"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        />
+    <!--alpha 标签，用于实现渐变透明度动画，取值范围0.0-1.0，0.0表示全透明，1.0表示完全不透明 -->
+    <alpha
+        android:fromAlpha="0.3"
+        android:toAlpha="1.0"
+        />
+    <!--rotate标签，旋转-->
+    <rotate
+        android:fromDegrees="-650"
+        android:toDegrees="3000"
+        android:pivotX="50%"
+        android:pivotY="50%"/>
+    <!--translaxte标签，平移-->
+    <translate
+        android:fromXDelta="0%p"
+        android:fromYDelta="0%p"
+        android:toXDelta="50%p"
+        android:toYDelta="50%p"/>
+
+</set>

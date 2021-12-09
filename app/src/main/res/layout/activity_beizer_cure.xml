@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".paintstudy.BeizerCureActivity">
+<!--    <com.newruide.myapplication.paintstudy.NormalGestureTrackView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"/>-->
+<!--    <com.newruide.myapplication.paintstudy.AnimWaveView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="match_parent"/>-->
+<!--    <com.newruide.myapplication.paintstudy.ShadowLayerView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"/>-->
+    <com.newruide.myapplication.paintstudy.TelescopeView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+<!--    <com.newruide.myapplication.paintstudy.ShimmerTextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:textSize="33sp"-->
+<!--        android:textColor="#000000"-->
+<!--        android:text="爱吃烧鸡大肘子的肉肉酱"/>-->
+</LinearLayout>
